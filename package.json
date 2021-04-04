@@ -1,0 +1,23 @@
+{
+  "name": "hello_world",
+  "version": "0.0.1",
+  "description": "nodejs-image-hello-world",
+  "license": "MIT",
+  "author": "http://localhost:8080/",
+  "main": "app.js",
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node app.js"
+},
+"engines": {
+    "node": "14.x"
+  },
+"heroku-run-build-script": true
+}

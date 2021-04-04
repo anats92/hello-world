@@ -11,10 +11,11 @@
     "express"
   ],
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mocha": "latest"
   },
   "scripts": {
-    "test": "node tests.js",
+    "test": "mocha",
     "start": "node app.js"
 },
 "engines": {

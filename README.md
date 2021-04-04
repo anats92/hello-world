@@ -1,3 +1,3 @@
 # README #
 
-Hello World js app
+Hello World js app.

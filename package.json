@@ -17,7 +17,6 @@
     "request": "latest"
   },
   "scripts": {
-    "prepublish": "mocha tests.js",
     "start": "node app.js"
 },
 "engines": {

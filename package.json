@@ -13,7 +13,8 @@
   "dependencies": {
     "express": "^4.16.4",
     "mocha": "latest",
-    "chai": "latest"
+    "chai": "latest",
+    "request": "latest"
   },
   "scripts": {
     "prepublish": "mocha tests.js",

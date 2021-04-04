@@ -17,8 +17,8 @@
     "request": "latest"
   },
   "scripts": {
-    "start": "node app.js",
-    "test": "npm-run-all select-tests test-run"
+    "test": "mocha ./**/*.js",
+    "start": "node app.js"
 },
 "engines": {
     "node": "14.x"

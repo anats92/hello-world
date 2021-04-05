@@ -17,7 +17,7 @@
     "request": "latest"
   },
   "scripts": {
-    "test": "npm start & node tests.js",
+    "test": "mocha tests.js",
     "start": "node app.js"
 },
 "engines": {

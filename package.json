@@ -17,7 +17,7 @@
     "request": "latest"
   },
   "scripts": {
-    "run": "mocha tests.js",
+    "predeploy": "mocha tests.js",
     "start": "node app.js"
 },
 "engines": {

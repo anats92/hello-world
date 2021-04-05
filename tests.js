@@ -1,5 +1,14 @@
 var expect  = require('chai').expect;
 var request = require('request');
+var app = require('../app')
+
+before(function(done) {
+  app.start(done)
+})
+
+after(function(done) {
+  app.close(done)
+})
 
 describe('Status and content', function() {
     describe ('test custom name', function() {

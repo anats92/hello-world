@@ -17,7 +17,6 @@
     "request": "latest"
   },
   "scripts": {
-    "test": "mocha ./**/*.js",
     "start": "node app.js"
 },
 "engines": {

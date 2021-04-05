@@ -17,9 +17,9 @@
     "request": "latest"
   },
   "scripts": {
-    "test": "node tests.js",
-    "test": "mocha tests.js",
-    "prebuild": "mocha tests.js",
+    "prepublish": "mocha",
+    "prepublish": "mocha tests.js",
+    "prepublish": "node tests.js",
     "start": "node app.js"
 },
 "engines": {

@@ -11,7 +11,7 @@
     "express"
   ],
   "dependencies": {
-    "express": "latest",
+    "express": "^4.16.4",
     "mocha": "latest",
     "chai": "latest",
     "request": "latest"

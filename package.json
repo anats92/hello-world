@@ -17,7 +17,9 @@
     "request": "latest"
   },
   "scripts": {
-    "prebuild": "npm start & node tests.js --port=8080",
+    "start": "npm start",
+    "test": "mocha tests.js",
+    "ci": "start-server-and-test http://localhost:8080"
     "start": "node app.js"
 },
 "engines": {

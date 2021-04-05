@@ -17,7 +17,7 @@
     "request": "latest"
   },
   "scripts": {
-    "prebuild": "npm mocha tests.js",
+    "prebuild": "npm tests.js",
     "start": "node app.js"
 },
 "engines": {

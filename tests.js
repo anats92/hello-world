@@ -17,7 +17,7 @@ describe('Status and content', function() {
 
 describe ('test default value - no name param', function() {
         it('status', function(done){
-            request('http://localhost:8080', function(error, response, body) {
+            request('https://rocky-plains-18016.herokuapp.com', function(error, response, body) {
                 expect(response.statusCode).to.equal(200);
                 expect(body).to.equal('Hello World');
                 done();
@@ -27,7 +27,7 @@ describe ('test default value - no name param', function() {
 
 describe ('test default value - empty name', function() {
         it('status', function(done){
-            request('http://localhost:8080', function(error, response, body) {
+            request('https://rocky-plains-18016.herokuapp.com/?name=', function(error, response, body) {
                 expect(response.statusCode).to.equal(200);
                 expect(body).to.equal('Hello World');
                 done();

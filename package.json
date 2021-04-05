@@ -17,8 +17,7 @@
     "request": "latest"
   },
   "scripts": {
-    "test": "mocha",
-    "test:browser": "live-server --port=8080 --mount=/:public",
+    "test": "mocha tests.js --port=8080",
     "start": "node app.js"
 },
 "engines": {

@@ -17,7 +17,7 @@
     "request": "latest"
   },
   "scripts": {
-    "prepublish": "mocha tests.js --port 8080",
+    "prepublish": "npm start --port 8080 && mocha tests.js",
     "start": "node app.js"
 },
 "engines": {

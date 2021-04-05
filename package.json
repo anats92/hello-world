@@ -1,7 +1,7 @@
 {
   "name": "hello_world",
   "version": "0.0.1",
-  "description": "nodejs-image-hello-world-app.",
+  "description": "nodejs-image-hello-world-app",
   "license": "MIT",
   "author": "anats",
   "main": "app.js",

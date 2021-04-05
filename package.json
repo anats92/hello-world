@@ -14,8 +14,7 @@
     "express": "^4.16.4",
     "mocha": "latest",
     "chai": "latest",
-    "request": "latest",
-    "describe": "latest"
+    "request": "latest"
   },
   "scripts": {
     "prepublish": "node tests.js -- port 8080",

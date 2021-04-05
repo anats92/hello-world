@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "node app.js",
-    "test": "mocha ./**/*.js"
+    "test": "mocha tests.js"
 },
 "engines": {
     "node": "14.x"

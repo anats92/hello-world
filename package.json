@@ -17,7 +17,7 @@
     "request": "latest"
   },
   "scripts": {
-    "prepublish": "npm start  &&  mocha tests.js",
+    "prepublish": "npm start && mocha tests.js",
     "start": "node app.js"
 },
 "engines": {

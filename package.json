@@ -17,8 +17,6 @@
     "request": "latest"
   },
   "scripts": {
-    "prepublish": "mocha",
-    "prepublish": "mocha tests.js",
     "prepublish": "node tests.js",
     "start": "node app.js"
 },

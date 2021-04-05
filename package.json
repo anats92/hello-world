@@ -17,8 +17,8 @@
     "request": "latest"
   },
   "scripts": {
-    "test": "mocha tests.js --port=8080",
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "npm start & node tests.js --port=8080"
 },
 "engines": {
     "node": "14.x"

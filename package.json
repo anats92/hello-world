@@ -17,10 +17,8 @@
     "request": "latest"
   },
   "scripts": {
-    "pretest": "rm -rf ./logs",
-    "test": "mocha --recursive",
-    "posttest": "jslint .",
-    "start": "node app.js"
+    "start": "node app.js",
+     "prebuild": "mocha tests.js"
 },
 "engines": {
     "node": "14.x"
